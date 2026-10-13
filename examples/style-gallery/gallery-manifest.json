@@ -1,0 +1,14 @@
+{
+  "contact_sheet": "sciy-ai-style-gallery.png",
+  "offline": true,
+  "styles": [
+    {"id":"academic-classic","no":"01","zh":"经典学术流程","en":"Academic Classic","image":"sciy-ai/01-academic-classic.png"},
+    {"id":"academic-modular","no":"02","zh":"模块分区学术","en":"Academic Modular","image":"sciy-ai/02-academic-modular.png"},
+    {"id":"technical-architecture","no":"03","zh":"工程系统架构","en":"Technical Architecture","image":"sciy-ai/03-technical-architecture.png"},
+    {"id":"timeline-stage","no":"04","zh":"阶段时间线","en":"Timeline & Stage","image":"sciy-ai/04-timeline-stage.png"},
+    {"id":"swimlane","no":"05","zh":"泳道多主体流程","en":"Swimlane","image":"sciy-ai/05-swimlane.png"},
+    {"id":"cycle-feedback","no":"06","zh":"循环反馈构图","en":"Cycle & Feedback","image":"sciy-ai/06-cycle-feedback.png"},
+    {"id":"network-concept","no":"07","zh":"网络概念关系","en":"Network & Concept","image":"sciy-ai/07-network-concept.png"},
+    {"id":"illustrated-workflow","no":"08","zh":"图文融合流程","en":"Illustrated Workflow","image":"sciy-ai/08-illustrated-workflow.png"}
+  ]
+}

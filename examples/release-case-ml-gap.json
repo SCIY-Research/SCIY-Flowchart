@@ -1,0 +1,732 @@
+{
+  "meta": {
+    "id": "ml-gap-public-paper-acceptance",
+    "title": "ML-GAP: RNA-seq Analysis Workflow",
+    "language": "en",
+    "style": "academic-modular",
+    "source": "Agraz et al. (2024), Frontiers in Genetics, doi:10.3389/fgene.2024.1442759, CC BY 4.0. Diagram independently reorganized; not original Fig.2."
+  },
+  "canvas": {
+    "width": 1600,
+    "height": 900,
+    "background": "#ffffff"
+  },
+  "typography": {
+    "english_font": "Times New Roman",
+    "node_pt": 12,
+    "group_pt": 13,
+    "title_pt": 15,
+    "note_pt": 10.5
+  },
+  "color": {
+    "palette_id": "P03"
+  },
+  "groups": [
+    {
+      "id": "prep",
+      "label": "01  DATA PREPARATION",
+      "x": 25,
+      "y": 90,
+      "w": 715,
+      "h": 260
+    },
+    {
+      "id": "routes",
+      "label": "02  FEATURE BASIS AND COMPARISON ROUTES",
+      "x": 765,
+      "y": 90,
+      "w": 810,
+      "h": 260
+    },
+    {
+      "id": "eval",
+      "label": "03  TRAINING AND HELD-OUT EVALUATION",
+      "x": 25,
+      "y": 400,
+      "w": 1550,
+      "h": 190
+    },
+    {
+      "id": "xai",
+      "label": "04  MODEL INTERPRETATION AND BIOLOGICAL VALIDATION",
+      "x": 25,
+      "y": 650,
+      "w": 1550,
+      "h": 155
+    }
+  ],
+  "nodes": [
+    {
+      "id": "data",
+      "text": "TCGA RNA-seq\nLung and RCC",
+      "x": 45,
+      "y": 155,
+      "w": 115,
+      "h": 90,
+      "type": "process",
+      "group": "prep",
+      "color_index": 0
+    },
+    {
+      "id": "filter",
+      "text": "Low-count /\nnear-zero-\nvariance filter",
+      "x": 185,
+      "y": 155,
+      "w": 115,
+      "h": 90,
+      "type": "process",
+      "group": "prep",
+      "color_index": 0
+    },
+    {
+      "id": "norm",
+      "text": "DESeq2\nmedian-ratio\nnormalization",
+      "x": 325,
+      "y": 155,
+      "w": 115,
+      "h": 90,
+      "type": "process",
+      "group": "prep",
+      "color_index": 0
+    },
+    {
+      "id": "vst",
+      "text": "Variance-\nstabilizing\ntransform",
+      "x": 465,
+      "y": 155,
+      "w": 115,
+      "h": 90,
+      "type": "process",
+      "group": "prep",
+      "color_index": 0
+    },
+    {
+      "id": "split",
+      "text": "Train/test\nsplit (80/20)",
+      "x": 605,
+      "y": 155,
+      "w": 115,
+      "h": 90,
+      "type": "process",
+      "group": "prep",
+      "color_index": 0
+    },
+    {
+      "id": "feature",
+      "text": "PCA + DEG\nselection\n200 features",
+      "x": 785,
+      "y": 180,
+      "w": 175,
+      "h": 100,
+      "type": "process",
+      "group": "routes",
+      "color_index": 1
+    },
+    {
+      "id": "baseline",
+      "text": "PCA/DEG baseline",
+      "x": 1020,
+      "y": 140,
+      "w": 225,
+      "h": 46,
+      "type": "process",
+      "group": "routes",
+      "color_index": 1
+    },
+    {
+      "id": "ae",
+      "text": "Autoencoder: 200 to 72",
+      "x": 1020,
+      "y": 208,
+      "w": 225,
+      "h": 46,
+      "type": "process",
+      "group": "routes",
+      "color_index": 1
+    },
+    {
+      "id": "mix",
+      "text": "MixUp: minority class",
+      "x": 1020,
+      "y": 276,
+      "w": 225,
+      "h": 46,
+      "type": "process",
+      "group": "routes",
+      "color_index": 1
+    },
+    {
+      "id": "training",
+      "text": "Training feature\nrepresentations\n(three alternatives)",
+      "x": 1320,
+      "y": 180,
+      "w": 225,
+      "h": 100,
+      "type": "process",
+      "group": "routes",
+      "color_index": 1
+    },
+    {
+      "id": "cv",
+      "text": "Random Forest / XGBoost\n5-fold CV + grid search\n(training set only)",
+      "x": 180,
+      "y": 450,
+      "w": 330,
+      "h": 95,
+      "type": "process",
+      "group": "eval",
+      "color_index": 2
+    },
+    {
+      "id": "final",
+      "text": "Selected model\nRefit on training data",
+      "x": 590,
+      "y": 450,
+      "w": 270,
+      "h": 95,
+      "type": "process",
+      "group": "eval",
+      "color_index": 2
+    },
+    {
+      "id": "test",
+      "text": "Held-out test\nevaluation (20%)",
+      "x": 930,
+      "y": 450,
+      "w": 270,
+      "h": 95,
+      "type": "process",
+      "group": "eval",
+      "color_index": 2
+    },
+    {
+      "id": "metrics",
+      "text": "Accuracy / PPV / NPV\nSensitivity / Specificity\nF1 score",
+      "x": 1270,
+      "y": 450,
+      "w": 275,
+      "h": 95,
+      "type": "process",
+      "group": "eval",
+      "color_index": 2
+    },
+    {
+      "id": "xai",
+      "text": "SHAP / LIME / VarImp",
+      "x": 80,
+      "y": 712,
+      "w": 330,
+      "h": 60,
+      "type": "process",
+      "group": "xai",
+      "color_index": 3
+    },
+    {
+      "id": "genes",
+      "text": "Top-10 important genes",
+      "x": 490,
+      "y": 712,
+      "w": 330,
+      "h": 60,
+      "type": "process",
+      "group": "xai",
+      "color_index": 3
+    },
+    {
+      "id": "bio",
+      "text": "Biological validation\nVolcano / Venn; GO / literature",
+      "x": 900,
+      "y": 712,
+      "w": 610,
+      "h": 60,
+      "type": "process",
+      "group": "xai",
+      "color_index": 3
+    }
+  ],
+  "edges": [
+    {
+      "id": "prep-data",
+      "from": "data",
+      "to": "filter",
+      "points": [
+        [
+          160,
+          200
+        ],
+        [
+          185,
+          200
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "prep-filter",
+      "from": "filter",
+      "to": "norm",
+      "points": [
+        [
+          300,
+          200
+        ],
+        [
+          325,
+          200
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "prep-norm",
+      "from": "norm",
+      "to": "vst",
+      "points": [
+        [
+          440,
+          200
+        ],
+        [
+          465,
+          200
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "prep-vst",
+      "from": "vst",
+      "to": "split",
+      "points": [
+        [
+          580,
+          200
+        ],
+        [
+          605,
+          200
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "features",
+      "from": "split",
+      "to": "feature",
+      "points": [
+        [
+          720,
+          200
+        ],
+        [
+          750,
+          200
+        ],
+        [
+          750,
+          230
+        ],
+        [
+          785,
+          230
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "branch-baseline",
+      "from": "feature",
+      "to": "baseline",
+      "points": [
+        [
+          960,
+          230
+        ],
+        [
+          990,
+          230
+        ],
+        [
+          990,
+          163
+        ],
+        [
+          1020,
+          163
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "merge-baseline",
+      "from": "baseline",
+      "to": "training",
+      "points": [
+        [
+          1245,
+          163
+        ],
+        [
+          1280,
+          163
+        ],
+        [
+          1280,
+          230
+        ],
+        [
+          1320,
+          230
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "branch-ae",
+      "from": "feature",
+      "to": "ae",
+      "points": [
+        [
+          960,
+          230
+        ],
+        [
+          990,
+          230
+        ],
+        [
+          990,
+          231
+        ],
+        [
+          1020,
+          231
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "merge-ae",
+      "from": "ae",
+      "to": "training",
+      "points": [
+        [
+          1245,
+          231
+        ],
+        [
+          1280,
+          231
+        ],
+        [
+          1280,
+          230
+        ],
+        [
+          1320,
+          230
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "branch-mix",
+      "from": "feature",
+      "to": "mix",
+      "points": [
+        [
+          960,
+          230
+        ],
+        [
+          990,
+          230
+        ],
+        [
+          990,
+          299
+        ],
+        [
+          1020,
+          299
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "merge-mix",
+      "from": "mix",
+      "to": "training",
+      "points": [
+        [
+          1245,
+          299
+        ],
+        [
+          1280,
+          299
+        ],
+        [
+          1280,
+          230
+        ],
+        [
+          1320,
+          230
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "train-path",
+      "from": "training",
+      "to": "cv",
+      "points": [
+        [
+          1432,
+          280
+        ],
+        [
+          1432,
+          375
+        ],
+        [
+          345,
+          375
+        ],
+        [
+          345,
+          450
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "selected",
+      "from": "cv",
+      "to": "final",
+      "points": [
+        [
+          510,
+          498
+        ],
+        [
+          590,
+          498
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "test-model",
+      "from": "final",
+      "to": "test",
+      "points": [
+        [
+          860,
+          498
+        ],
+        [
+          930,
+          498
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "holdout",
+      "from": "split",
+      "to": "test",
+      "points": [
+        [
+          662,
+          245
+        ],
+        [
+          662,
+          360
+        ],
+        [
+          10,
+          360
+        ],
+        [
+          10,
+          610
+        ],
+        [
+          1065,
+          610
+        ],
+        [
+          1065,
+          545
+        ]
+      ],
+      "kind": "secondary"
+    },
+    {
+      "id": "performance",
+      "from": "test",
+      "to": "metrics",
+      "points": [
+        [
+          1200,
+          498
+        ],
+        [
+          1270,
+          498
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "interpret",
+      "from": "metrics",
+      "to": "xai",
+      "points": [
+        [
+          1408,
+          545
+        ],
+        [
+          1408,
+          625
+        ],
+        [
+          245,
+          625
+        ],
+        [
+          245,
+          712
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "topgenes",
+      "from": "xai",
+      "to": "genes",
+      "points": [
+        [
+          410,
+          742
+        ],
+        [
+          490,
+          742
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "id": "biological",
+      "from": "genes",
+      "to": "bio",
+      "points": [
+        [
+          820,
+          742
+        ],
+        [
+          900,
+          742
+        ]
+      ],
+      "kind": "main"
+    }
+  ],
+  "source": {
+    "authors": "Agraz et al. (2024)",
+    "doi": "10.3389/fgene.2024.1442759",
+    "license": "CC BY 4.0",
+    "modification": "Independently redrawn methodology diagram"
+  },
+  "notes": [
+    "Compared methods share initial PCA/DEG basis; no AE-to-MixUp dependency.",
+    "Training/CV and held-out test paths are distinct.",
+    "Paper does not establish all preprocessing was fitted within CV; this figure makes no leakage-free claim."
+  ],
+  "semantic_assertions": {
+    "required_nodes": [
+      "data",
+      "split",
+      "feature",
+      "baseline",
+      "ae",
+      "mix",
+      "cv",
+      "test",
+      "xai"
+    ],
+    "required_edges": [
+      [
+        "data",
+        "filter"
+      ],
+      [
+        "filter",
+        "norm"
+      ],
+      [
+        "norm",
+        "vst"
+      ],
+      [
+        "vst",
+        "split"
+      ],
+      [
+        "feature",
+        "baseline"
+      ],
+      [
+        "feature",
+        "ae"
+      ],
+      [
+        "feature",
+        "mix"
+      ],
+      [
+        "cv",
+        "final"
+      ],
+      [
+        "final",
+        "test"
+      ],
+      [
+        "metrics",
+        "xai"
+      ]
+    ],
+    "forbidden_edges": [
+      [
+        "test",
+        "cv"
+      ],
+      [
+        "test",
+        "final"
+      ],
+      [
+        "test",
+        "training"
+      ],
+      [
+        "split",
+        "ae"
+      ]
+    ],
+    "parallel_branches": [
+      [
+        "baseline",
+        "ae",
+        "mix"
+      ]
+    ]
+  }
+}

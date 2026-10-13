@@ -1,0 +1,106 @@
+[
+  {
+    "id": "P01",
+    "name": "NPG-inspired",
+    "source_name": "Nature Reviews Cancer-inspired",
+    "colors": [
+      "#E64B35",
+      "#4DBBD5",
+      "#00A087",
+      "#3C5488",
+      "#F39B7F"
+    ],
+    "note": "鲜明但成熟；适合多模块方法图。"
+  },
+  {
+    "id": "P02",
+    "name": "NEJM-inspired",
+    "source_name": "New England Journal of Medicine-inspired",
+    "colors": [
+      "#BC3C29",
+      "#0072B5",
+      "#E18727",
+      "#20854E",
+      "#7876B1"
+    ],
+    "note": "蓝红橙绿紫平衡，正式、稳重。"
+  },
+  {
+    "id": "P03",
+    "name": "JAMA-inspired",
+    "source_name": "Journal of the American Medical Association-inspired",
+    "colors": [
+      "#374E55",
+      "#DF8F44",
+      "#00A1D5",
+      "#B24745",
+      "#79AF97"
+    ],
+    "note": "低饱和、成熟，特别适合论文流程图。"
+  },
+  {
+    "id": "P04",
+    "name": "JCO-inspired",
+    "source_name": "Journal of Clinical Oncology-inspired",
+    "colors": [
+      "#0073C2",
+      "#EFC000",
+      "#868686",
+      "#CD534C",
+      "#7AA6DC"
+    ],
+    "note": "蓝金灰体系，适合正式技术路线。"
+  },
+  {
+    "id": "P05",
+    "name": "Lancet-inspired",
+    "source_name": "Lancet Oncology-inspired",
+    "colors": [
+      "#00468B",
+      "#ED0000",
+      "#42B540",
+      "#0099B4",
+      "#925E9F"
+    ],
+    "note": "深蓝为主，多色强调，适合复杂模块。"
+  },
+  {
+    "id": "P06",
+    "name": "BMJ",
+    "source_name": "BMJ living style guide",
+    "colors": [
+      "#2A6EBB",
+      "#F0AB00",
+      "#C50084",
+      "#7D5CC6",
+      "#00B2A9"
+    ],
+    "note": "明快现代，适合 PPT/报告但需控制高饱和面积。"
+  },
+  {
+    "id": "P07",
+    "name": "UChicago Light",
+    "source_name": "University of Chicago light palette",
+    "colors": [
+      "#800000",
+      "#5B8FA8",
+      "#FFB547",
+      "#ADB17D",
+      "#B1746F"
+    ],
+    "note": "暖灰蓝与酒红，偏高级复古学术。"
+  },
+  {
+    "id": "P08",
+    "name": "Frontiers-inspired",
+    "source_name": "Frontiers logo-inspired subset",
+    "colors": [
+      "#164194",
+      "#0094CD",
+      "#31B7BC",
+      "#007B3D",
+      "#F39200"
+    ],
+    "note": "蓝青绿为主，橙色强调，适合现代科研平台感。"
+  }
+]

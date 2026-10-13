@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="45" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="28" font-weight="700" fill="#17191c">Academic Modular</text>
+<text x="600.0" y="73" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="16" font-weight="400" fill="#606872">Grouped phases and functional modules for complex methods</text>
+<rect x="70" y="135" width="310" height="500" rx="18" fill="#f7f8fa" stroke="#9aa3ad" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="90" y="167" text-anchor="start" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="700" fill="#17191c">Phase I  Model</text>
+<rect x="445" y="135" width="310" height="500" rx="18" fill="#f7f8fa" stroke="#9aa3ad" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="465" y="167" text-anchor="start" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="700" fill="#17191c">Phase II  Analysis</text>
+<rect x="820" y="135" width="310" height="500" rx="18" fill="#f7f8fa" stroke="#9aa3ad" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="840" y="167" text-anchor="start" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="700" fill="#17191c">Phase III  Validation</text>
+<rect x="115" y="235" width="220" height="70" rx="10" fill="#ffffff" stroke="#30343b" stroke-width="2"/>
+<text x="225.0" y="277.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#17191c">Inputs</text>
+<rect x="115" y="395" width="220" height="70" rx="10" fill="#ffffff" stroke="#30343b" stroke-width="2"/>
+<text x="225.0" y="437.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#17191c">Baseline model</text>
+<rect x="490" y="235" width="220" height="70" rx="10" fill="#ffffff" stroke="#30343b" stroke-width="2"/>
+<text x="600.0" y="277.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#17191c">Scenario A</text>
+<rect x="490" y="395" width="220" height="70" rx="10" fill="#ffffff" stroke="#30343b" stroke-width="2"/>
+<text x="600.0" y="437.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#17191c">Scenario B</text>
+<rect x="865" y="235" width="220" height="70" rx="10" fill="#ffffff" stroke="#30343b" stroke-width="2"/>
+<text x="975.0" y="277.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#17191c">Cross-check</text>
+<rect x="865" y="395" width="220" height="70" rx="10" fill="#ffffff" stroke="#30343b" stroke-width="2"/>
+<text x="975.0" y="437.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#17191c">Decision</text>
+<polyline points="335,270 490,270" fill="none" stroke="#32373d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<polyline points="335,430 490,430" fill="none" stroke="#32373d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<polyline points="710,270 865,270" fill="none" stroke="#32373d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<polyline points="710,430 865,430" fill="none" stroke="#32373d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+</svg>

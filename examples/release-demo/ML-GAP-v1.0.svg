@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs>
+<marker id="arrow-ml-gap-acceptance-B" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="context-stroke"/></marker>
+</defs>
+<text x="800" y="42" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="20" font-weight="700" fill="#23313D">ML-GAP: RNA-seq Analysis Workflow</text>
+<rect x="25" y="90" width="715" height="260" rx="18" fill="#F7F8F8" stroke="#A9B3B6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="765" y="90" width="810" height="260" rx="18" fill="#F7F8F8" stroke="#A9B3B6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="25" y="400" width="1550" height="190" rx="18" fill="#F7F8F8" stroke="#A9B3B6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="25" y="650" width="1550" height="155" rx="18" fill="#F7F8F8" stroke="#A9B3B6" stroke-width="1.5" stroke-dasharray="6 5"/>
+<polyline points="160,200 185,200" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="300,200 325,200" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="440,200 465,200" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="580,200 605,200" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="720,200 750,200 750,230 785,230" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="960,230 990,230 990,163 1020,163" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="1245,163 1280,163 1280,230 1320,230" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="960,230 990,230 990,231 1020,231" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="1245,231 1280,231 1280,230 1320,230" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="960,230 990,230 990,299 1020,299" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="1245,299 1280,299 1280,230 1320,230" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="1432,280 1432,446 345,446 345,450" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="510,498 590,498" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="860,498 930,498" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="662,245 662,360 10,360 10,610 1065,610 1065,545" fill="none" stroke="#52616E" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="1200,498 1270,498" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="1408,545 1408,703 245,703 245,712" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="410,742 490,742" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<polyline points="820,742 900,742" fill="none" stroke="#374E55" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ml-gap-acceptance-B)"/>
+<rect x="36" y="95" width="205.32" height="32" fill="#F7F8F8"/>
+<text x="43" y="118" font-family="Times New Roman,Source Han Sans SC,serif" font-size="17.3333" font-weight="700" fill="#23313D">01  DATA PREPARATION</text>
+<rect x="776" y="95" width="373.774" height="32" fill="#F7F8F8"/>
+<text x="783" y="118" font-family="Times New Roman,Source Han Sans SC,serif" font-size="17.3333" font-weight="700" fill="#23313D">02  FEATURE BASIS AND COMPARISON ROUTES</text>
+<rect x="36" y="405" width="347.176" height="32" fill="#F7F8F8"/>
+<text x="43" y="428" font-family="Times New Roman,Source Han Sans SC,serif" font-size="17.3333" font-weight="700" fill="#23313D">03  TRAINING AND HELD-OUT EVALUATION</text>
+<rect x="36" y="655" width="471.3" height="32" fill="#F7F8F8"/>
+<text x="43" y="678" font-family="Times New Roman,Source Han Sans SC,serif" font-size="17.3333" font-weight="700" fill="#23313D">04  MODEL INTERPRETATION AND BIOLOGICAL VALIDATION</text>
+<rect x="45" y="155" width="115" height="90" rx="8" fill="#E5E8E9" stroke="#374E55" stroke-width="2"/>
+<text x="102.5" y="196" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">TCGA RNA-seq</text>
+<text x="102.5" y="216" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Lung and RCC</text>
+<rect x="185" y="155" width="115" height="90" rx="8" fill="#E5E8E9" stroke="#374E55" stroke-width="2"/>
+<text x="242.5" y="186" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Low-count /</text>
+<text x="242.5" y="206" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">near-zero-</text>
+<text x="242.5" y="226" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">variance filter</text>
+<rect x="325" y="155" width="115" height="90" rx="8" fill="#E5E8E9" stroke="#374E55" stroke-width="2"/>
+<text x="382.5" y="186" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">DESeq2</text>
+<text x="382.5" y="206" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">median-ratio</text>
+<text x="382.5" y="226" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">normalization</text>
+<rect x="465" y="155" width="115" height="90" rx="8" fill="#E5E8E9" stroke="#374E55" stroke-width="2"/>
+<text x="522.5" y="186" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Variance-</text>
+<text x="522.5" y="206" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">stabilizing</text>
+<text x="522.5" y="226" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">transform</text>
+<rect x="605" y="155" width="115" height="90" rx="8" fill="#E5E8E9" stroke="#374E55" stroke-width="2"/>
+<text x="662.5" y="196" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Train/test</text>
+<text x="662.5" y="216" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">split (80/20)</text>
+<rect x="785" y="180" width="175" height="100" rx="8" fill="#FBF0E7" stroke="#DF8F44" stroke-width="2"/>
+<text x="872.5" y="216" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">PCA + DEG</text>
+<text x="872.5" y="236" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">selection</text>
+<text x="872.5" y="256" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">200 features</text>
+<rect x="1020" y="140" width="225" height="46" rx="8" fill="#FBF0E7" stroke="#DF8F44" stroke-width="2"/>
+<text x="1132.5" y="169" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">PCA/DEG baseline</text>
+<rect x="1020" y="208" width="225" height="46" rx="8" fill="#FBF0E7" stroke="#DF8F44" stroke-width="2"/>
+<text x="1132.5" y="237" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Autoencoder: 200 to 72</text>
+<rect x="1020" y="276" width="225" height="46" rx="8" fill="#FBF0E7" stroke="#DF8F44" stroke-width="2"/>
+<text x="1132.5" y="305" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">MixUp: minority class</text>
+<rect x="1320" y="180" width="225" height="100" rx="8" fill="#FBF0E7" stroke="#DF8F44" stroke-width="2"/>
+<text x="1432.5" y="216" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Training feature</text>
+<text x="1432.5" y="236" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">representations</text>
+<text x="1432.5" y="256" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">(three alternatives)</text>
+<rect x="180" y="450" width="330" height="95" rx="8" fill="#DEF3FA" stroke="#00A1D5" stroke-width="2"/>
+<text x="345" y="483.5" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Random Forest / XGBoost</text>
+<text x="345" y="503.5" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">5-fold CV + grid search</text>
+<text x="345" y="523.5" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">(training set only)</text>
+<rect x="590" y="450" width="270" height="95" rx="8" fill="#DEF3FA" stroke="#00A1D5" stroke-width="2"/>
+<text x="725" y="493.5" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Selected model</text>
+<text x="725" y="513.5" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Refit on training data</text>
+<rect x="930" y="450" width="270" height="95" rx="8" fill="#DEF3FA" stroke="#00A1D5" stroke-width="2"/>
+<text x="1065" y="493.5" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Held-out test</text>
+<text x="1065" y="513.5" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">evaluation (20%)</text>
+<rect x="1270" y="450" width="275" height="95" rx="8" fill="#DEF3FA" stroke="#00A1D5" stroke-width="2"/>
+<text x="1407.5" y="483.5" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Accuracy / PPV / NPV</text>
+<text x="1407.5" y="503.5" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Sensitivity / Specificity</text>
+<text x="1407.5" y="523.5" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">F1 score</text>
+<rect x="80" y="712" width="330" height="60" rx="8" fill="#F5E7E7" stroke="#B24745" stroke-width="2"/>
+<text x="245" y="748" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">SHAP / LIME / VarImp</text>
+<rect x="490" y="712" width="330" height="60" rx="8" fill="#F5E7E7" stroke="#B24745" stroke-width="2"/>
+<text x="655" y="748" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Top-10 important genes</text>
+<rect x="900" y="712" width="610" height="60" rx="8" fill="#F5E7E7" stroke="#B24745" stroke-width="2"/>
+<text x="1205" y="738" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Biological validation</text>
+<text x="1205" y="758" text-anchor="middle" font-family="Times New Roman,Source Han Sans SC,serif" font-size="16" font-weight="400" fill="#23313D">Volcano / Venn; GO / literature</text>
+</svg>

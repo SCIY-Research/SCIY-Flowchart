@@ -1,0 +1,109 @@
+{
+  "version": "0.2",
+  "families": [
+    {
+      "id": "academic-classic",
+      "folder": "01-academic-classic",
+      "name": "Academic Classic / 经典学术流程",
+      "structure": "Linear / hierarchical flow",
+      "best_for": [
+        "论文方法流程",
+        "系统综述流程",
+        "一般求解思路",
+        "实验步骤"
+      ],
+      "preview": "styles/01-academic-classic/preview.png"
+    },
+    {
+      "id": "academic-modular",
+      "folder": "02-academic-modular",
+      "name": "Academic Modular / 模块分区学术",
+      "structure": "Grouped modules / phases",
+      "best_for": [
+        "数学建模",
+        "Methodology framework",
+        "多阶段研究",
+        "复杂技术路线"
+      ],
+      "preview": "styles/02-academic-modular/preview.png"
+    },
+    {
+      "id": "technical-architecture",
+      "folder": "03-technical-architecture",
+      "name": "Technical Architecture / 工程系统架构",
+      "structure": "System / block architecture",
+      "best_for": [
+        "实验系统",
+        "控制系统",
+        "软件架构",
+        "CFD/ML pipeline"
+      ],
+      "preview": "styles/03-technical-architecture/preview.png"
+    },
+    {
+      "id": "timeline-stage",
+      "folder": "04-timeline-stage",
+      "name": "Timeline & Stage / 阶段时间线",
+      "structure": "Timeline / staged process",
+      "best_for": [
+        "实验日程",
+        "研究阶段",
+        "项目计划",
+        "临床/生物流程"
+      ],
+      "preview": "styles/04-timeline-stage/preview.png"
+    },
+    {
+      "id": "swimlane",
+      "folder": "05-swimlane",
+      "name": "Swimlane / 泳道多主体流程",
+      "structure": "Swimlanes / multi-actor flow",
+      "best_for": [
+        "实验-模拟-验证",
+        "部门协作",
+        "人机流程",
+        "多模型并行"
+      ],
+      "preview": "styles/05-swimlane/preview.png"
+    },
+    {
+      "id": "cycle-feedback",
+      "folder": "06-cycle-feedback",
+      "name": "Cycle & Feedback / 循环反馈优化",
+      "structure": "Cycle / feedback loop",
+      "best_for": [
+        "优化算法",
+        "参数迭代",
+        "闭环控制",
+        "模型复核"
+      ],
+      "preview": "styles/06-cycle-feedback/preview.png"
+    },
+    {
+      "id": "network-concept",
+      "folder": "07-network-concept",
+      "name": "Network & Concept / 网络概念关系",
+      "structure": "Network / concept map",
+      "best_for": [
+        "概念框架",
+        "DEMATEL/AHP",
+        "知识图谱",
+        "风险传播"
+      ],
+      "preview": "styles/07-network-concept/preview.png"
+    },
+    {
+      "id": "illustrated-workflow",
+      "folder": "08-illustrated-workflow",
+      "name": "Illustrated Workflow / 图文融合流程",
+      "structure": "Hybrid visual workflow",
+      "best_for": [
+        "Graphical abstract",
+        "实验-数据-模型",
+        "设备流程",
+        "结果摘要"
+      ],
+      "preview": "styles/08-illustrated-workflow/preview.png"
+    }
+  ]
+}

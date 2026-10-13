@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="45" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="28" font-weight="700" fill="#111111">Academic Classic</text>
+<text x="600.0" y="73" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="16" font-weight="400" fill="#666666">Linear, branched and convergent journal-style flow</text>
+<rect x="90" y="180" width="220" height="82" rx="10" fill="#f0f0f0" stroke="#202020" stroke-width="2"/>
+<text x="200.0" y="228.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#111111">Research input</text>
+<rect x="420" y="180" width="220" height="82" rx="10" fill="#ffffff" stroke="#202020" stroke-width="2"/>
+<text x="530.0" y="216.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#111111">Model</text>
+<text x="530.0" y="240.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#111111">construction</text>
+<rect x="750" y="180" width="220" height="82" rx="10" fill="#ffffff" stroke="#202020" stroke-width="2"/>
+<text x="860.0" y="228.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#111111">Validation</text>
+<rect x="750" y="400" width="220" height="82" rx="10" fill="#f0f0f0" stroke="#202020" stroke-width="2"/>
+<text x="860.0" y="448.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#111111">Final output</text>
+<polyline points="310,221 420,221" fill="none" stroke="#222222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<polyline points="640,221 750,221" fill="none" stroke="#222222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<polyline points="860,262 860,400" fill="none" stroke="#222222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+</svg>

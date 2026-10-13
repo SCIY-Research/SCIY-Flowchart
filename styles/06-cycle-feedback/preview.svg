@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="45" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="28" font-weight="700" fill="#111111">Cycle &amp; Feedback</text>
+<text x="600.0" y="73" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="16" font-weight="400" fill="#666666">Iteration, closed-loop control, optimization and review</text>
+<rect x="190" y="285" width="190" height="72" rx="10" fill="#ffffff" stroke="#303030" stroke-width="2"/>
+<text x="285.0" y="328.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#111111">Model</text>
+<rect x="475" y="170" width="190" height="72" rx="10" fill="#ffffff" stroke="#303030" stroke-width="2"/>
+<text x="570.0" y="213.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#111111">Run</text>
+<rect x="760" y="285" width="190" height="72" rx="10" fill="#ececec" stroke="#303030" stroke-width="2"/>
+<text x="855.0" y="328.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#111111">Evaluate</text>
+<rect x="475" y="455" width="190" height="72" rx="10" fill="#ffffff" stroke="#303030" stroke-width="2"/>
+<text x="570.0" y="498.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#111111">Update</text>
+<polyline points="380,321 475,206" fill="none" stroke="#222222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<polyline points="665,206 760,321" fill="none" stroke="#222222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<polyline points="855,357 665,491" fill="none" stroke="#4f6577" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<polyline points="475,491 285,357" fill="none" stroke="#4f6577" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="600" y="640" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#666666">Repeat until convergence / constraint satisfied</text>
+</svg>

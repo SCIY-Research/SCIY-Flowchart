@@ -1,0 +1,114 @@
+[
+  {
+    "id": "academic-classic",
+    "name_zh": "经典学术流程",
+    "name_en": "Academic Classic",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/PRISMA_flow_diagram.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:PRISMA_flow_diagram.jpg",
+    "source_note": "Wikimedia Commons; PRISMA-style flow reference; consult source for exact free-license terms",
+    "use_for": [
+      "论文方法流程",
+      "数学建模求解路线",
+      "实验步骤",
+      "筛选流程"
+    ]
+  },
+  {
+    "id": "academic-modular",
+    "name_zh": "模块分区学术",
+    "name_en": "Academic Modular",
+    "image_url": "https://www.frontiersin.org/files/Articles/287953/xml-images/fnins-11-00713-g0002.webp",
+    "source_url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2017.00713/full",
+    "source_note": "Frontiers in Neuroscience 11:713 (2017); CC BY; Figure 2",
+    "use_for": [
+      "复杂方法框架",
+      "多阶段研究",
+      "模型-训练-验证",
+      "分区技术路线"
+    ]
+  },
+  {
+    "id": "technical-architecture",
+    "name_zh": "工程系统架构",
+    "name_en": "Technical Architecture",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Computer_architecture_block_diagram.png",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Computer_architecture_block_diagram.png",
+    "source_note": "Wikimedia Commons; CC BY-SA 4.0",
+    "use_for": [
+      "工程系统",
+      "实验系统",
+      "控制系统",
+      "CFD/ML pipeline"
+    ]
+  },
+  {
+    "id": "timeline-stage",
+    "name_zh": "阶段时间线",
+    "name_en": "Timeline & Stage",
+    "image_url": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1186%2Fs12909-024-06467-y/MediaObjects/12909_2024_6467_Fig1_HTML.png",
+    "source_url": "https://link.springer.com/article/10.1186/s12909-024-06467-y",
+    "source_note": "BMC Medical Education 24, 1530 (2024); CC BY 4.0; Figure 1",
+    "use_for": [
+      "研究阶段",
+      "实验时间线",
+      "项目计划",
+      "里程碑"
+    ]
+  },
+  {
+    "id": "swimlane",
+    "name_zh": "泳道多主体流程",
+    "name_en": "Swimlane",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/PM2-swimlane.png",
+    "source_url": "https://commons.wikimedia.org/wiki/File:PM2-swimlane.png",
+    "source_note": "Wikimedia Commons; CC BY-SA 4.0",
+    "use_for": [
+      "实验-模拟-验证",
+      "多角色协作",
+      "跨模块流程",
+      "数据/模型/实验并行"
+    ]
+  },
+  {
+    "id": "cycle-feedback",
+    "name_zh": "循环反馈构图",
+    "name_en": "Cycle & Feedback",
+    "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-025-56643-x/MediaObjects/41467_2025_56643_Fig7_HTML.png",
+    "source_url": "https://www.nature.com/articles/s41467-025-56643-x",
+    "source_note": "Nature Communications 16, 1474 (2025); CC BY 4.0; Figure 7",
+    "use_for": [
+      "迭代优化",
+      "闭环控制",
+      "反馈修正",
+      "收敛搜索"
+    ]
+  },
+  {
+    "id": "network-concept",
+    "name_zh": "网络概念关系",
+    "name_en": "Network & Concept",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Conceptmap.png",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Conceptmap.png",
+    "source_note": "Wikimedia Commons; CC BY-SA 3.0 / GFDL history; see source",
+    "use_for": [
+      "概念框架",
+      "因素关系",
+      "DEMATEL/AHP",
+      "风险网络"
+    ]
+  },
+  {
+    "id": "illustrated-workflow",
+    "name_zh": "图文融合流程",
+    "name_en": "Illustrated Workflow",
+    "image_url": "https://journals.plos.org/plosone/article/figure/image?download=&id=10.1371/journal.pone.0313378.g001&size=large",
+    "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0313378",
+    "source_note": "PLOS ONE 20(5): e0313378 (2025); CC BY 4.0; Figure 1",
+    "use_for": [
+      "图形摘要",
+      "设备-数据-模型流程",
+      "生物/材料/化学 workflow",
+      "科研展示"
+    ]
+  }
+]

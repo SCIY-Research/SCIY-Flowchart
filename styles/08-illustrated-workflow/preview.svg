@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="45" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="28" font-weight="700" fill="#202326">Illustrated Workflow</text>
+<text x="600.0" y="73" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="16" font-weight="400" fill="#6c6f72">Workflow nodes combined with simple vector illustrations</text>
+<rect x="90" y="250" width="195" height="220" rx="18" fill="#f8f8f7" stroke="#59616a" stroke-width="2"/>
+<text x="187.5" y="367.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#202326"></text>
+<text x="187" y="445" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="700" fill="#202326">Sample</text>
+<rect x="365" y="250" width="195" height="220" rx="18" fill="#f8f8f7" stroke="#59616a" stroke-width="2"/>
+<text x="462.5" y="367.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#202326"></text>
+<text x="462" y="445" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="700" fill="#202326">Data</text>
+<rect x="640" y="250" width="195" height="220" rx="18" fill="#f8f8f7" stroke="#59616a" stroke-width="2"/>
+<text x="737.5" y="367.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#202326"></text>
+<text x="737" y="445" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="700" fill="#202326">Model</text>
+<rect x="915" y="250" width="195" height="220" rx="18" fill="#f8f8f7" stroke="#59616a" stroke-width="2"/>
+<text x="1012.5" y="367.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#202326"></text>
+<text x="1012" y="445" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="700" fill="#202326">Result</text>
+<path d="M160 295 L160 330 L130 385 Q125 405 150 410 L225 410 Q250 405 245 385 L215 330 L215 295" fill="none" stroke="#59616a" stroke-width="4"/>
+<line x1="155" y1="355" x2="220" y2="355" stroke="#59616a" stroke-width="3"/>
+<rect x="405" y="348" width="20" height="42" fill="#ece9e2" stroke="#59616a" stroke-width="2"/>
+<rect x="437" y="314" width="20" height="76" fill="#ece9e2" stroke="#59616a" stroke-width="2"/>
+<rect x="469" y="332" width="20" height="58" fill="#ece9e2" stroke="#59616a" stroke-width="2"/>
+<rect x="501" y="290" width="20" height="100" fill="#ece9e2" stroke="#59616a" stroke-width="2"/>
+<circle cx="690" cy="320" r="14" fill="#ece9e2" stroke="#59616a" stroke-width="2"/>
+<circle cx="745" cy="350" r="14" fill="#ece9e2" stroke="#59616a" stroke-width="2"/>
+<circle cx="690" cy="390" r="14" fill="#ece9e2" stroke="#59616a" stroke-width="2"/>
+<circle cx="775" cy="405" r="14" fill="#ece9e2" stroke="#59616a" stroke-width="2"/>
+<line x1="690" y1="320" x2="745" y2="350" stroke="#59616a" stroke-width="2"/>
+<line x1="745" y1="350" x2="690" y2="390" stroke="#59616a" stroke-width="2"/>
+<line x1="745" y1="350" x2="775" y2="405" stroke="#59616a" stroke-width="2"/>
+<polyline points="950,400 980,372 1010,382 1040,330 1070,345" fill="none" stroke="#59616a" stroke-width="4"/>
+<line x1="945" y1="410" x2="1080" y2="410" stroke="#59616a" stroke-width="2"/>
+<polyline points="285,360 365,360" fill="none" stroke="#505b66" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<polyline points="560,360 640,360" fill="none" stroke="#505b66" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<polyline points="835,360 915,360" fill="none" stroke="#505b66" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+</svg>

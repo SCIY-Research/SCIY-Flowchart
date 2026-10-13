@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "id": "sample",
+    "title": "SCIY Sample Flow",
+    "language": "en",
+    "style": "academic-modular"
+  },
+  "canvas": {
+    "width": 1400,
+    "height": 760,
+    "background": "#ffffff"
+  },
+  "typography": {
+    "english_font": "Times New Roman",
+    "chinese_font": "Source Han Sans SC",
+    "node_pt": 12,
+    "group_pt": 13,
+    "title_pt": 15,
+    "note_pt": 10.5
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Model",
+      "x": 60,
+      "y": 110,
+      "w": 580,
+      "h": 490
+    },
+    {
+      "id": "g2",
+      "label": "Evaluation",
+      "x": 760,
+      "y": 110,
+      "w": 580,
+      "h": 490
+    }
+  ],
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "rounded",
+      "text": "Input data",
+      "x": 130,
+      "y": 190,
+      "w": 210,
+      "h": 80,
+      "group": "g1"
+    },
+    {
+      "id": "n2",
+      "type": "process",
+      "text": "Build model",
+      "x": 390,
+      "y": 190,
+      "w": 210,
+      "h": 80,
+      "group": "g1"
+    },
+    {
+      "id": "n3",
+      "type": "decision",
+      "text": "Constraints satisfied?",
+      "x": 390,
+      "y": 360,
+      "w": 220,
+      "h": 120,
+      "group": "g1"
+    },
+    {
+      "id": "n4",
+      "type": "process",
+      "text": "Validate",
+      "x": 850,
+      "y": 190,
+      "w": 210,
+      "h": 80,
+      "group": "g2"
+    },
+    {
+      "id": "n5",
+      "type": "rounded",
+      "text": "Final result",
+      "x": 1090,
+      "y": 190,
+      "w": 190,
+      "h": 80,
+      "group": "g2",
+      "emphasis": "strong"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "from": "n1",
+      "to": "n2",
+      "kind": "main"
+    },
+    {
+      "id": "e2",
+      "from": "n2",
+      "to": "n3",
+      "kind": "main"
+    },
+    {
+      "id": "e3",
+      "from": "n3",
+      "to": "n4",
+      "kind": "main",
+      "label": "Yes"
+    },
+    {
+      "id": "e4",
+      "from": "n4",
+      "to": "n5",
+      "kind": "main"
+    },
+    {
+      "id": "e5",
+      "from": "n3",
+      "to": "n2",
+      "kind": "feedback",
+      "label": "No",
+      "points": [
+        [
+          390,
+          420
+        ],
+        [
+          280,
+          420
+        ],
+        [
+          280,
+          300
+        ],
+        [
+          495,
+          300
+        ],
+        [
+          495,
+          270
+        ]
+      ]
+    }
+  ],
+  "color": {
+    "colors": [
+      "#176B87",
+      "#6A9AA6",
+      "#C7A77A"
+    ]
+  }
+}

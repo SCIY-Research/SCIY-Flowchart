@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="45" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="28" font-weight="700" fill="#162432">Swimlane</text>
+<text x="600.0" y="73" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="16" font-weight="400" fill="#637889">Role- or module-based lanes with cross-lane flow</text>
+<rect x="95" y="145" width="1010" height="140" rx="10" fill="#f6f8fa" stroke="#a8b0b8" stroke-width="1.8"/>
+<text x="117" y="177" text-anchor="start" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="700" fill="#162432">Experiment</text>
+<rect x="95" y="300" width="1010" height="140" rx="10" fill="#f6f8fa" stroke="#a8b0b8" stroke-width="1.8"/>
+<text x="117" y="332" text-anchor="start" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="700" fill="#162432">Simulation</text>
+<rect x="95" y="455" width="1010" height="140" rx="10" fill="#f6f8fa" stroke="#a8b0b8" stroke-width="1.8"/>
+<text x="117" y="487" text-anchor="start" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="700" fill="#162432">Validation</text>
+<rect x="240" y="185" width="180" height="64" rx="10" fill="#ffffff" stroke="#385d7a" stroke-width="2"/>
+<text x="330.0" y="224.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#162432">Prepare</text>
+<rect x="520" y="185" width="180" height="64" rx="10" fill="#ffffff" stroke="#385d7a" stroke-width="2"/>
+<text x="610.0" y="224.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#162432">Measure</text>
+<rect x="365" y="340" width="180" height="64" rx="10" fill="#ffffff" stroke="#385d7a" stroke-width="2"/>
+<text x="455.0" y="379.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#162432">Model</text>
+<rect x="665" y="340" width="180" height="64" rx="10" fill="#ffffff" stroke="#385d7a" stroke-width="2"/>
+<text x="755.0" y="379.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#162432">Simulate</text>
+<rect x="525" y="495" width="180" height="64" rx="10" fill="#ffffff" stroke="#385d7a" stroke-width="2"/>
+<text x="615.0" y="534.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#162432">Compare</text>
+<rect x="825" y="495" width="180" height="64" rx="10" fill="#ffffff" stroke="#385d7a" stroke-width="2"/>
+<text x="915.0" y="534.0" text-anchor="middle" font-family="Times New Roman, Source Han Sans SC, serif" font-size="18" font-weight="400" fill="#162432">Accept</text>
+<polyline points="420,217 520,217" fill="none" stroke="#416985" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<polyline points="455,372 665,372" fill="none" stroke="#416985" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<polyline points="755,217 755,340 665,340" fill="none" stroke="#416985" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<polyline points="755,404 755,495 705,495" fill="none" stroke="#416985" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+<polyline points="705,527 825,527" fill="none" stroke="#416985" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#a)"/>
+</svg>
